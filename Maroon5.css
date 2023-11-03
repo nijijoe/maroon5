@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Merriweather:wght@300&family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&family=Open+Sans&family=Pacifico&family=Poppins:ital,wght@0,300;0,600;1,100;1,400&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+
+*{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: white;
+}
+nav a:visited{
+    color: white;
+}
+.nav-logo p{
+    font-style: bold;
+
+}
+.text{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+
+}
+.line1{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    font-size: 50px;
+    color: rgb(160, 27, 0);
+    font-family: 'Caveat', cursive;
+}
+.line2{
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    font-size: 70px;
+    color: white;
+    font-family: 'Caveat', cursive;
+}
+.home h1{
+    font-size: 120px;
+    color: white;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    top: 170px;
+    
+}
+.home img{
+    
+    height: 100vh;
+    width: 100%;
+}
+ .about{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+ }
+.louis{
+    position: absolute;
+    top: 950px;
+    left: 120px;
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.louis img{
+    height: 200px;
+    width: 200px;
+    /* position: absolute;
+    top: 35px;
+    left: 25px ; */
+    border-radius: 10%;
+}
+
+.louis h3{
+    padding-top: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+.zayn{
+    position: absolute;
+    top: 1200px;
+    left: 410px;
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.zayn img{
+    height: 200px;
+    width: 200px;
+    /* position: absolute;
+    top: 35px;
+    left: 25px ; */
+    border-radius: 10%;
+}
+
+.zayn h3{
+    padding-top: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+.liam{
+    position: absolute;
+    top: 950px;
+    left: 700px;
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.liam img{
+    height: 200px;
+    width: 200px;
+    /* position: absolute;
+    top: 35px;
+    left: 25px ; */
+    border-radius: 10%;
+}
+
+.liam h3{
+    padding-top: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+
+.niall{
+    position: absolute;
+    top: 1200px;
+    left: 1000px;
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.niall img{
+    height: 200px;
+    width: 200px;
+    /* position: absolute;
+    top: 35px;
+    left: 25px ; */
+    border-radius: 10%;
+}
+
+.niall h3{
+    padding-top: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+.harry{
+    position: absolute;
+    top: 950px;
+    left: 1300px;
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.harry img{
+    height: 200px;
+    width: 200px;
+    /* position: absolute;
+    top: 35px;
+    left: 25px ; */
+    border-radius: 10%;
+}
+
+.harry h3{
+    padding-top: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+.about a:link{
+    color: black;
+}
+
+.about a:visited{
+    color: black;
+}
+
+.music{
+    width: 100%;
+    height:100vh ;
+    /* height: 100vh;background-color: darkslateblue; */
+    background-image: url(https://img.freepik.com/premium-photo/music-background-with-vinyl-records-illustration-ai-generativexa_115919-14584.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#carouselExampleAutoplaying{
+    margin-left: 300px;
+    margin-right: 250px;
+    padding-top: 200px;
+}
+.carousel-inner img{
+    height: 300px;
+    width: 30%;
+    position: relative;
+    left: 300px;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.carousel-control-next-icon{
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+
+.mv{
+    width: 100%;
+    height: 270vh;
+    /* background-image: url(band-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(10px); */
+    background-color: rgb(0, 0, 0);
+}
+
+.vid1 img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    top: 50px;  
+    border-radius: 10%;
+}
+
+.vid1 svg{
+    position: relative;
+    left: -130px;
+    top: 50px;
+    height: 40px;
+    width: 50px;
+}
+.vid1 svg:hover{
+    background-color: azure;
+}
+
+.mv1 h2{
+    /* font-family: 'Caveat', cursive; */
+    font-weight: 400;
+    top: 2600px;
+    left: 900px ;
+    position: absolute;
+    color: white;
+}
+
+.mv1 input{
+    position: absolute;
+    top: 2650px;
+    left: 920px ;
+    height: 50px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px red solid;
+    color: red;
+    font-size: 20px;
+}
+
+.mv1 input:hover{
+    background-color: rgb(241, 231, 231);
+}
+.mv2 h2{
+    /* font-family: 'Caveat', cursive; */
+    font-weight: 400;
+    top: 2950px;
+    left: 350px ;
+    position: absolute;
+    color: white;
+}
+
+.mv2 input{
+    position: absolute;
+    top: 3000px;
+    left: 350px ;
+    height: 50px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px red solid;
+    color: red;
+    font-size: 20px;
+}
+
+.mv2 input:hover{
+    background-color: rgb(241, 231, 231);
+}
+.vid2 img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 750px;
+    top: 50px;  
+    border-radius: 10%;
+}
+
+.vid2 svg{
+    position: relative;
+    left: 470px;
+    top: 50px;
+    height: 40px;
+    width: 50px;
+}
+.vid2 svg:hover{
+    background-color: azure;
+}
+.vid3 img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    top: 100px;  
+    border-radius: 10%;
+}
+
+.vid3 svg{
+    position: relative;
+    left: -130px;
+    top: 100px;
+    height: 40px;
+    width: 50px;
+}
+.vid3 svg:hover{
+    background-color: azure;
+}
+.mv3 h2{
+    /* font-family: 'Caveat', cursive; */
+    font-weight: 400;
+    top: 3250px;
+    left: 900px ;
+    position: absolute;
+    color: white;
+}
+
+.mv3 input{
+    position: absolute;
+    top: 3300px;
+    left: 900px ;
+    height: 50px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px red solid;
+    color: red;
+    font-size: 20px;
+}
+
+.mv3 input:hover{
+    background-color: rgb(241, 231, 231);
+}
+.mv4 h2{
+    /* font-family: 'Caveat', cursive; */
+    font-weight: 400;
+    top: 3550px;
+    left: 350px ;
+    position: absolute;
+    color: white;
+}
+
+.mv4 input{
+    position: absolute;
+    top: 3600px;
+    left: 330px ;
+    height: 50px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px red solid;
+    color: red;
+    font-size: 20px;
+}
+
+.mv4 input:hover{
+    background-color: rgb(241, 231, 231);
+}
+.vid4 img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 750px;
+    top: 100px;  
+    border-radius: 10%;
+}
+
+.vid4 svg{
+    position: relative;
+    left: 470px;
+    top: 100px;
+    height: 40px;
+    width: 50px;
+}
+.vid4 svg:hover{
+    background-color: azure;
+}
+
+.vid5 img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    top: 100px;  
+    border-radius: 10%;
+}
+
+.vid5 svg{
+    position: relative;
+    left: -130px;
+    top: 100px;
+    height: 40px;
+    width: 50px;
+}
+.vid5 svg:hover{
+    background-color: azure;
+}
+.mv5 h2{
+    /* font-family: 'Caveat', cursive; */
+    font-weight: 400;
+    top: 3850px;
+    left: 950px ;
+    position: absolute;
+    color: white;
+}
+
+.mv5 input{
+    position: absolute;
+    top: 3900px;
+    left: 920px ;
+    height: 50px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px red solid;
+    color: red;
+    font-size: 20px;
+}
+
+.mv5 input:hover{
+    background-color: rgb(241, 231, 231);
+}
+.vid6 img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 750px;
+    top: 100px;  
+    border-radius: 10%;
+}
+
+.vid6 svg{
+    position: relative;
+    left: 470px;
+    top: 100px;
+    height: 40px;
+    width: 50px;
+}
+.vid6 svg:hover{
+    background-color: azure;
+}
+.mv6 h2{
+    /* font-family: 'Caveat', cursive; */
+    font-weight: 400;
+    top: 4150px;
+    left: 330px ;
+    position: absolute;
+    color: white;
+}
+
+.mv6 input{
+    position: absolute;
+    top: 4200px;
+    left: 370px ;
+    height: 50px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px red solid;
+    color: red;
+    font-size: 20px;
+}
+
+.mv6 input:hover{
+    background-color: rgb(241, 231, 231);
+}
+.store{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(91, 6, 6);
+
+}
+.part1{
+    display: flex;
+    height: 40vh;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.store a{
+    text-decoration: none;
+}
+.book img{
+    /* position: relative;
+    top:30px;
+    left: 50px; */
+    width: 200px;
+    height: 250px;
+}
+.book p{
+    color: aliceblue;
+    font-size: 20px;
+    /* position: relative;
+    top:30px;
+    left: 50px; */
+}
+.book p:hover{
+    color: rgb(18, 18, 83);
+}
+.movie img{
+    /* position: relative;
+    top:-230px;
+    left: 300px; */
+    width: 200px;
+    height: 250px;
+}
+.movie p{
+    color: aliceblue;
+    font-size: 20px;
+    /* position: relative;
+    top:30px;
+    left: 300px; */
+}
+.movie p:hover{
+    color: rgb(18, 18, 83);
+}
+.part2{
+    display: flex;
+    height: 40vh;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.part2 a{
+    text-decoration: none;
+}
+.album1 img{
+    height: 200px;
+    width: 200px;
+}
+.album1 p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+.album1 p:hover{
+    color: rgb(18, 18, 83);
+}
+.social{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.social svg{
+    width: 50px;
+    height: 50px;
+    color: gainsboro;
+}
